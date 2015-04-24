@@ -2,6 +2,8 @@
 ## This repo is for peer assessments 
 
 Files included in this repo
+- UCI HAR Dataset
+  - Dataset for this project 
 - `run_analysis.R`
   - This is the code to get a tidy txt file
 - `CodeBook.md`
