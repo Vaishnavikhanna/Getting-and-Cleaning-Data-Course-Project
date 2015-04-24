@@ -10,4 +10,4 @@ Files included in this repo
   - It describes the variables, the data, and any work that is performed to clean up the data
 - `tidyDataSet.txt`
   - The .txt file that created by `run_analysis.R`
-  - Please use `data <- read.table(file_path, header = TRUE)` and `View(data)` to read `tidyDataSet.txt`
+  - Please use `read.table(file_path, header = TRUE)` to read `tidyDataSet.txt`
