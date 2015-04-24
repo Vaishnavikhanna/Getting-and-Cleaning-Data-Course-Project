@@ -1,2 +1,10 @@
-# Getting-and-Cleaning-Data-Course-Project
-For peer assessments 
+# Getting and Cleaning Data - Course Project
+## This repo is for peer assessments 
+
+Files included in this repo
+- `run_analysis.R`
+  - This is the code to get a tidy txt file
+- `CodeBook.md`
+  - it describes the variables, the data, and any work that is performed to clean up the data
+- `tidyDataSet.txt`
+  - Please use `data <- read.table(file_path, header = TRUE)` and `View(data)` to read `tidyDataSet.txt`
