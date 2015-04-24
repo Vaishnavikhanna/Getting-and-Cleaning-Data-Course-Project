@@ -1,12 +1,12 @@
 # CodeBook for tidyDataSet.txt
-[*Variables from column 1 to column 3*](#Variables)<br/>
-[*Data after column 3*](#Data)<br/> 
-[*Steps to clean up the data*](#Steps)<br/>
+[*Variables From Column 1 To Column 3*](#Variables)<br/>
+[*Data After Column 3*](#Data)<br/> 
+[*Steps To Clean Up The Data*](#Steps)<br/>
 
 ***
 
 <a name="Variables"/>
-- *Variables from column 1 to column 3*
+- *Variables From Column 1 To Column 3*
   - **Test_Or_Train**
     - 70% of the volunteers was selected for generating the training data and 30% the test data
       - Test: 9 volunteers
@@ -25,7 +25,7 @@
 
 
 <a name="Data"/>
-- *Data after column 3 is the avearge value for every item below*
+- *Data After Column 3 Is The Avearge Value For Every Item Below*
     - tBodyAcc-mean()-X
     - tBodyAcc-mean()-Y
     - tBodyAcc-mean()-Z
@@ -94,7 +94,7 @@
     - fBodyBodyGyroJerkMag-std()
 
 <a name="Steps"/>
-- *Steps to clean up the data*
+- *Steps To Clean Up The Data*
   1. Merges the training and the test sets to create one data set
   2. Labels the data set with descriptive variable names, including assigning every column a name according to its measure based on the file `features.txt`
   3. Extracts only the measurements on the mean and standard deviation for each measurement
