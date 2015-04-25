@@ -6,7 +6,7 @@ Files included in this repo
   - Dataset to be extracted in this project 
 - `run_analysis.R`
   - This is the code to get a tidy txt file from `UCI HAR Dataset`
-  - Also includes detailed steps
+  - Also includes detailed comments (steps) 
 - `CodeBook.md`
   - It describes the variables, the data, and general steps that is performed to clean up the data
 - `tidyDataSet.txt`
