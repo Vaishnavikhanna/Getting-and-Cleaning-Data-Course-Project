@@ -1,6 +1,6 @@
 # CodeBook for tidyDataSet.txt
 [*Variables From Column 1 To Column 3*](#Variables)<br/>
-[*Data After Column 3*](#Data)<br/> 
+[*Variables After Column 3*](#Data)<br/> 
 [*Steps To Clean Up The Data*](#Steps)<br/>
 
 ***
@@ -25,7 +25,7 @@
 
 
 <a name="Data"/>
-- *Data After Column 3 Is The Avearge Value For Every Item Below*
+- *Variables After Column 3 Is The Avearge Value For Every Item Below*
     - tBodyAcc-mean()-X
     - tBodyAcc-mean()-Y
     - tBodyAcc-mean()-Z
@@ -95,10 +95,10 @@
 
 <a name="Steps"/>
 - *Steps To Clean Up The Data*
-  1. Merges the training and the test sets to create one data set
+  1. Merges the training (`subject_train.txt`, `X_train.txt`, `y_train.txt`) and the test (`subject_test.txt`, `X_test.txt`, `y_test.txt`) sets to create one data set (`df`)
   2. Labels the data set with descriptive variable names, including assigning every column a name according to its measure based on the file `features.txt`
-  3. Extracts only the measurements on the mean and standard deviation for each measurement
-  4. Computes the average of each variable for each activity and each subject
-  5. Uses descriptive activity names to name the activities in the data set
-  6. Gives additional column to label "Train" or "Test" according to the subjects
-  7. Save the final data set as a .txt file, `tidyDataSet.txt`
+  3. Extracts only the measurements on the mean and standard deviation for each measurement (`dfEX`)
+  4. Computes the average of each variable for each activity and each subject (`dfMean`)
+  5. Uses descriptive activity names to name the activities in the data set (`dfTidy`)
+  6. Gives additional column to label "Train" or "Test" according to the subjects (`dfTidy3`)
+  7. Save the final data set as a .txt file (`tidyDataSet.txt`)
