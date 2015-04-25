@@ -36,7 +36,8 @@
 
 
 <a name="Data"/>
-## *Variables After Column 3 Is The Avearge Value For Every Item Below*
+## *Variables After Column 3*
+- Variables After Column 3 Is The Avearge Value For Every Item Below
     - tBodyAcc-mean()-X
     - tBodyAcc-mean()-Y
     - tBodyAcc-mean()-Z
